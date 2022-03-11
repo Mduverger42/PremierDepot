@@ -10,12 +10,13 @@ int factoriel(int nb);
 
 int exposant(int nb, int exp);
 
+
 struct point
 {
 	float x,y;
 };
 
-
 float Distance (point a, point b);
 
+int nombrePremier(int Nombre);
 
