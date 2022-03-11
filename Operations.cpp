@@ -32,3 +32,12 @@ float division(int a, int b)
 	return resultat;
 }
 
+int factoriel(int nb)
+{
+	int resultat=1;
+	for(int i=nb; i > 0; i--)
+	{
+		resultat = resultat*i;
+	}
+}
+
