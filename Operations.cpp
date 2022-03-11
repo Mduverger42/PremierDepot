@@ -41,3 +41,12 @@ int factoriel(int nb)
 	}
 }
 
+int exposant(int nb, int exp)
+{
+	int resultat;
+	
+	resultat = pow(nb, exp);
+	
+	return resultat;
+}
+
