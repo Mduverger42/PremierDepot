@@ -50,3 +50,10 @@ int exposant(int nb, int exp)
 	return resultat;
 }
 
+float distance(point a, point b)
+{
+	float dx,dy;
+	dx = a.x - b.x;
+	dy = a.y - b.y;
+	return sqrt((dx*dx) + (dy*dy));
+}
