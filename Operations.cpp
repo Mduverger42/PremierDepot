@@ -41,7 +41,18 @@ int factoriel(int nb)
 	}
 }
 
+
 bool vrai
 {
 	return true;
 }
+
+int exposant(int nb, int exp)
+{
+	int resultat;
+	
+	resultat = pow(nb, exp);
+	
+	return resultat;
+}
+

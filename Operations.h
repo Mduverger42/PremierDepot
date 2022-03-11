@@ -9,3 +9,6 @@ float division(int a, int b);
 int factoriel(int nb);
 
 bool vrai;
+
+int exposant(int nb, int exp);
+
