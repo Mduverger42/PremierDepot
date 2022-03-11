@@ -50,3 +50,26 @@ int exposant(int nb, int exp)
 	return resultat;
 }
 
+int nombrePremier(int Nombre)
+{
+	int Nombre,i=1,nb=0,d;
+	bool premier;
+	 
+	 
+	while(nb<Nombre)
+	{
+		i++;
+		premier=true;
+		d=2;
+		while(premier && d*d<=i)
+				if(i%d==0)
+					premier=false; 
+				else
+					d++;
+ 
+		if(premier==true)
+			nb++;
+	}
+	 
+	return i;
+}
