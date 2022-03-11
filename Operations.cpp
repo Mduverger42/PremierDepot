@@ -17,3 +17,18 @@ int soustraction(int a, int b)
 	
 	return resultat;
 }
+
+float multiplication(int a, int b)
+{
+	int resultat;
+	resultat = a * b;
+	return resultat;
+}
+
+float division(int a, int b)
+{
+	int resultat;
+	resultat = a / b;
+	return resultat;
+}
+
