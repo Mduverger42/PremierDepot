@@ -41,3 +41,7 @@ int factoriel(int nb)
 	}
 }
 
+bool vrai
+{
+	return true;
+}
